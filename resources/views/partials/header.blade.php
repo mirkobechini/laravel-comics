@@ -5,17 +5,16 @@ $menu = require base_path("./database/data/navbar.php");
 
 
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+    <nav class="navbar navbar-expand bg-body-light">
+        <div class="container d-flex justify-content-between my-2">
+            <a class="navbar-brand" href="#">
+                <img width="70" src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="">
+            </a>
+            <div class="navbar" id="navbarNav">
+                <ul class="navbar-nav ">
                     @foreach ($menu as $item)
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">{{$item}}</a>
+                    <li class="nav-item px-1 text-uppercase">
+                        <a class="nav-link montserrat-400 text-dark" href="#">{{$item}}</a>
                     </li>
                     @endforeach
                 </ul>
