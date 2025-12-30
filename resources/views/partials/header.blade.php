@@ -14,7 +14,7 @@ $menu = require base_path("./database/data/navbar.php");
                 <ul class="navbar-nav ">
                     @foreach ($menu as $item)
                     <li class="nav-item px-1 text-uppercase">
-                        <a class="nav-link montserrat-400 text-dark" href="#">{{$item}}</a>
+                        <a class="nav-link roboto-condensed-400 text-dark" href="#">{{$item}}</a>
                     </li>
                     @endforeach
                 </ul>

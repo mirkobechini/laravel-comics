@@ -1,13 +1,13 @@
 // Fonts
 @import url('https://fonts.bunny.net/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;900&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
-.montserrat-400 {
-  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  font-weight: 400;
+.roboto-condensed-400 {
+  font-family: 'Roboto Condensed', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-weight: bold;
 }
