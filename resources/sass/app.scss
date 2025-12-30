@@ -22,3 +22,9 @@
   object-fit: cover;
   background-repeat: no-repeat;
 }
+
+.jumbo{
+  background-image: url("../img/jumbotron.jpg");
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
