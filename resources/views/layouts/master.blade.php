@@ -11,5 +11,7 @@
     <div class="bg-dark">
         sdas
     </div>
+
+    @include("partials.footer")
 </body>
 </html>
