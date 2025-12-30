@@ -11,3 +11,8 @@
   font-family: 'Roboto Condensed', system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-weight: bold;
 }
+
+.nav-link.active{
+  color: $primary !important;
+  border-bottom: solid $primary;
+}
