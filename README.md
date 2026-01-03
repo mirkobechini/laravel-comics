@@ -13,4 +13,4 @@ Proviamo a replicare il layout di un sito basandoci sullo screenshot in allegato
 - [X] Creare più pagine istituzionali che condividono lo stesso layout
 
 ## Bonus 2
-- [] Creare uno o più componenti da condividere tra le varie pagine
+- [X] Creare uno o più componenti da condividere tra le varie pagine

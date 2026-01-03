@@ -48,6 +48,8 @@ $comics = config("comics");
         </div>
     </div>
 
+    <x-blue-band></x-blue-band>
+
     @endsection
 </body>
 
