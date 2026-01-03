@@ -1,5 +1,6 @@
 @php
-$comics = require base_path("./database/data/comics.php")
+$comics = config("comics");
+
 @endphp
 
 

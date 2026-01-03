@@ -1,5 +1,5 @@
 @php
-$footer_links = require base_path("./database/data/footer-links.php");
+$footer_links = config("footer-links");
 @endphp
 
 

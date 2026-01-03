@@ -1,6 +1,6 @@
 
 @php
-$menu = require base_path("./database/data/navbar.php");
+$menu = config("navbar");
 @endphp
 
 
