@@ -28,10 +28,7 @@ $comics = config("comics");
             <div class="row row-cols-6 mb-4 ">
                 @foreach($comics as $comic)
                 <div class="col">
-                    <x-comic-card>
-                        <x-slot:series>{{$comic['series']}}</x-slot:series>
-                        <x-slot:thumb>{{$comic['thumb']}}</x-slot:thumb>
-                    </x-comic-card>
+                    <x-comic-card: comic ='$comic'/>
                 </div>
                 @endforeach
             </div>
