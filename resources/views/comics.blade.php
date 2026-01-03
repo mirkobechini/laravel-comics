@@ -22,8 +22,9 @@ $comics = require base_path("./database/data/comics.php")
 
     </div>
     <div class="bg-dark">
-        <div class="container py-5">
-            <div class="row row-cols-6 mb-4">
+        <div class="container py-5 position-relative">
+            <span class=" position-absolute text-uppercase text-light bg-primary top-0 start-0 translate-middle-y py-1 px-4 roboto-condensed-400 fs-2">current series</span>
+            <div class="row row-cols-6 mb-4 ">
                 @foreach($comics as $comic)
                 <div class="col">
                     <div class="card bg-dark text-light border-0">
