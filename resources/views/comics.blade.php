@@ -18,7 +18,7 @@ $comics = require base_path("./database/data/comics.php")
 
     @section("content")
 
-    <div class="jumbo img img-fluid w-100" style="height: 400px;">
+    <div class="jumbo img img-fluid w-100" style="height: 210px;">
 
     </div>
     <div class="bg-dark">
