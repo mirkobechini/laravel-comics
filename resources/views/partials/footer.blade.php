@@ -8,7 +8,7 @@ $footer_links = require base_path("./database/data/footer-links.php");
 
     <div class="links position-relative overflow-hidden">
         <div class="container">
-            <div class="row row-cols-2 justify-content-between align-items-center">
+            <div class="row row-cols-2 justify-content-between align-items-center py-4">
                 <div class="col text-light d-flex flex-wrap">
                     @foreach($footer_links as $title => $links)
                     <div class="col-4">
@@ -22,7 +22,7 @@ $footer_links = require base_path("./database/data/footer-links.php");
                     @endforeach
                 </div>
                 <div class="col ">
-                    <img class="position-absolute top-50 end-0 translate-middle-y" style="height: 420px; width:auto;" src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="dc_logo">
+                    <img class="position-absolute top-50 end-0 translate-middle-y" src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="dc_logo">
                 </div>
             </div>
         </div>
