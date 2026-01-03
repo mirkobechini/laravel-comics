@@ -23,12 +23,13 @@ $comics = require base_path("./database/data/comics.php")
     </div>
     <div class="bg-dark">
         <div class="container py-5">
-            <div class="row gap-3 mb-4">
+            <div class="row row-cols-6 mb-4">
                 @foreach($comics as $comic)
                 <div class="col">
                     <div class="card bg-dark text-light border-0">
-                        <div class=" overflow-hidden " style="width: 200px; height: 200px;">
-                            <img src='{{$comic["thumb"]}}' class="w-100 object-fit-cover" alt="...">
+                        @php $cover = $comic['thumb']; @endphp
+                        <div class="card-thumb overflow-hidden" style="background-image:url('{{$cover}}')">
+
                         </div>
 
                         <h5 class="card-title pt-3 text-uppercase fs-6">{{$comic["series"]}}</h5>

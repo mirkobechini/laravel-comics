@@ -29,3 +29,10 @@
   background-size: cover;       
   background-repeat: no-repeat;
 }
+
+.card-thumb{
+  width:100%;
+  aspect-ratio: 1 / 1;
+  background-size:cover;
+  background-position:baseline;
+}
