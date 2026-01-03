@@ -6,10 +6,10 @@ $footer_links = require base_path("./database/data/footer-links.php");
 <footer>
 
 
-    <div class="links">
-        <div class="container py-4">
-            <div class="row row-cols-2 justify-content-between align-items-center py-2">
-                <div class="col text-light row flex-wrap">
+    <div class="links position-relative overflow-hidden">
+        <div class="container">
+            <div class="row row-cols-2 justify-content-between align-items-center">
+                <div class="col text-light d-flex flex-wrap">
                     @foreach($footer_links as $title => $links)
                     <div class="col-4">
                         <span class="fw-bold text-uppercase roboto-condensed-400 fs-5 d-block pb-2">{{$title}}</span>
@@ -21,8 +21,8 @@ $footer_links = require base_path("./database/data/footer-links.php");
                     </div>
                     @endforeach
                 </div>
-                <div class="col overflow-hidden " style="height: 420px;">
-                    <img style="width: 100%;" src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="dc_logo">
+                <div class="col ">
+                    <img class="position-absolute top-50 end-0 translate-middle-y" style="height: 420px; width:auto;" src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="dc_logo">
                 </div>
             </div>
         </div>

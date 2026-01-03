@@ -19,12 +19,14 @@
 
 .links{
   background-image: url("../img/footer-bg.jpg");
-  object-fit: cover;
+  background-size: contain;          
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 .jumbo{
   background-image: url("../img/jumbotron.jpg");
-  object-fit: contain;
+  background-size: contain;          
+  background-position: center;
   background-repeat: no-repeat;
 }
